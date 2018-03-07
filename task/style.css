@@ -1,0 +1,81 @@
+@font-face{
+
+    font-family: 's360r';
+    src:url('fonts/NeoSansArabic.ttf');
+}
+
+@font-face{
+
+    font-family: 's360b';
+    src:url('fonts/Neo Sans Arabic Bold.ttf');
+}
+@font-face{
+
+    font-family: 's360t';
+    src:url('fonts/NeoSansArabic.ttf');
+}
+.list-inline,.list-unstyled,p{
+    margin: 0px;
+}
+
+a, .btn {
+    text-decoration: none !important;
+    outline: none !important;
+    color: #0065a4;
+}
+a:hover {
+    color: #000;
+}
+body{
+    font-family: 's360r';
+    color: #1a1c1d;
+}
+h1, h2, h3, h4, h6, h5, b, strong {
+    font-family: 's360b';
+    font-weight: 300;
+}
+h3
+{
+   background: #43c495;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+div#pull {
+    margin: 40px 0;
+    }
+#pull ul
+{
+    margin: 30px 0;
+    font-size: 20px;
+}
+#pull ol
+{
+   color: #2c2c2c;
+    background: #f0fff9;
+    width:100%;
+    border-radius: 20px;
+    padding: 15px 20px;
+    display: inline;
+    margin: 20px;
+    border: 1px solid #daf6eb;
+}
+#choose input
+{
+    display: none;
+}
+#choose ul
+{
+    font-size: 20px;
+    margin: 25px 0 ;
+}
+#choose ol
+{
+       font-size: 18px;
+    width: 40%;
+    background-color: #f0fff9;
+    padding: 10px 40px;
+    margin: 10px 20px;
+    border: 1px solid #d4f4e7;
+}
